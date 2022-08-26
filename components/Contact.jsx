@@ -43,7 +43,7 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full text-[#5651e5] shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaLinkedinIn />
                     </div>
                   </a>
@@ -52,12 +52,12 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full text-[#5651e5] shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaGithub />
                     </div>
                   </a>
 
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                  <div className='rounded-full shadow-lg text-[#5651e5] shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
                  

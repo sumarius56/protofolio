@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
-import NavLogo from '../public/assets/navLogo.png'
+import NavLogo from '../public/assets/mylogo.webp'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -57,12 +57,12 @@ const Navbar = () => {
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
           <a>
-            <Image
+            <Image className
               src={NavLogo}
               alt='/'
-              width='125'
-              height='50'
-              className='cursor-pointer'
+              width='70'
+              height='70'
+              className='cursor-pointer bg-[#5651e5] rounded-full '
             />
           </a>
         </Link>
@@ -77,7 +77,7 @@ const Navbar = () => {
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase text-[#5651e5] hover:border-b'>
               <Link href='/#projects'>Projects</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
@@ -114,10 +114,10 @@ const Navbar = () => {
             <div className='flex w-full items-center justify-between'>
               <Link href='/'>
                 <a>
-                  <Image
+                  <Image className='bg-[#5651e5] rounded-full'
                     src={NavLogo}
-                    width='87'
-                    height='35'
+                    width='70'
+                    height='70'
                     alt='/'
                   />
                 </a>
@@ -153,7 +153,7 @@ const Navbar = () => {
                 </li>
               </Link>
               <Link href='/#projects'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li onClick={() => setNav(false)} className='py-4 text-[#5651e5] text-sm'>
                   Projects
                 </li>
               </Link>
@@ -174,7 +174,7 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                  <div className='rounded-full text-[#5651e5] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <FaLinkedinIn />
                   </div>
                 </a>
@@ -183,14 +183,14 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                  <div className='rounded-full text-[#5651e5] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <FaGithub />
                   </div>
                 </a>
                 <Link href='/#contact'>
                   <div
                     onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
+                    className='rounded-full shadow-lg shadow-gray-400 text-[#5651e5] p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
                     <AiOutlineMail />
                   </div>
