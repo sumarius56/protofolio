@@ -57,12 +57,12 @@ const Navbar = () => {
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
           <a>
-            <Image className
+            <Image 
               src={NavLogo}
               alt='/'
               width='70'
               height='70'
-              className='cursor-pointer bg-[#5651e5] rounded-full '
+              className ='cursor-pointer bg-[#5651e5] rounded-full '
             />
           </a>
         </Link>
