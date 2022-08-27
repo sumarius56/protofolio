@@ -6,6 +6,7 @@ import bestImg from '../public/assets/projects/besteats.png'
 import netflixImg from '../public/assets/projects/netflix.jpg'
 import twitchImg from '../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
+import uberImg from '../public/assets/projects/uber.webp'
 
 const Projects = () => {
   return (
@@ -30,6 +31,12 @@ const Projects = () => {
             backgroundImg={dataImg}
             projectUrl='/datawebsite'
             tech='React JS'
+          />
+          <ProjectItem
+            title='Uber Clone'
+            backgroundImg={uberImg}
+            projectUrl='/uberclone'
+            tech='Next JS'
           />
           <ProjectItem
             title='Simple Food Website'
