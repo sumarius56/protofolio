@@ -36,7 +36,7 @@ const uberclone = () => {
             few features to note with this project are built in routing, and Google Auth and Mapbox API.
           </p>
           <a
-            href='https://uber-clone-v0-8-5m47zqcbl-sumarius56.vercel.app/'
+            href='https://uber-clone-v0-8.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
