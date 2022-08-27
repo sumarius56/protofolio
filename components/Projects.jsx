@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import dataImg from '../public/assets/projects/datawebsitee.webp';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
+import bestImg from '../public/assets/projects/besteats.png'
 import netflixImg from '../public/assets/projects/netflix.jpg'
 import twitchImg from '../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
@@ -23,9 +23,9 @@ const Projects = () => {
             tech='React JS'
           />
           <ProjectItem
-            title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
+            title='Simple Food Website'
+            backgroundImg={bestImg}
+            projectUrl='/besteats'
             tech='React JS'
 
           />
