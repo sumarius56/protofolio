@@ -18,6 +18,16 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
 
+
+            <ProjectItem
+            title='Twitch UI'
+            backgroundImg={twitchImg}
+            projectUrl='/twitch'
+            tech='Next JS'
+
+          />
+
+
            <ProjectItem
             title='Netflix App'
             backgroundImg={netflixImg}
@@ -46,13 +56,7 @@ const Projects = () => {
 
           />
           
-          {/* <ProjectItem
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
-
-          /> */}
+          
         </div>
       </div>
     </div>
