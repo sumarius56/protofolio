@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import aboutImg from '../public/assets/aboutImg.avif'
 
 
 const About = () => {
@@ -27,7 +28,7 @@ const About = () => {
           </Link>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image src='https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80' className='rounded-xl' alt='/' />
+          <Image src={aboutImg} className='rounded-xl' alt='/' />
         </div>
       </div>
     </div>
