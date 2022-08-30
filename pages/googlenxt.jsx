@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import bestImg from '../public/assets/projects/besteats.png';
+import googleImg from '../public/assets/projects/googlenextimg.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const besteats = () => {
+const googlenxt = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -13,12 +13,12 @@ const besteats = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={bestImg}
+          src={googleImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Best Eats</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className='py-2'>Google NXT</h2>
+          <h3>Next JS / Tailwind / Vercel</h3>
         </div>
       </div>
 
@@ -27,17 +27,17 @@ const besteats = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This is a simple food website, with a nice and simple UI, you can filter trough the menu and also the price.
+            This is a google clone made in Next JS, here i show the power of Tailwind CSS and Next server rendering to make use of the google API for searching the web, and also implementing pagination,ability to move from one page to another.
           </p>
           <a
-            href='https://github.com/sumarius56/best-eats'
+            href='https://github.com/sumarius56/googlenxt'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://best-eats-snfg.web.app/'
+            href='https://googlenxt.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -53,13 +53,19 @@ const besteats = () => {
                 <RiRadioButtonFill className='pr-1' /> React
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Next
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Tailwind
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
+                <RiRadioButtonFill className='pr-1' /> Vercel
+              </p>
+               <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Google API
               </p>
              
               
@@ -74,4 +80,4 @@ const besteats = () => {
   );
 };
 
-export default besteats;
+export default googlenxt;

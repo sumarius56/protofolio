@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import dataImg from '../public/assets/projects/finaldataimg.png';
-import bestImg from '../public/assets/projects/besteats.png'
+import googleImg from '../public/assets/projects/googlenextimg.jpg'
 import netflixImg from '../public/assets/projects/netflix.jpg'
 import twitchImg from '../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
@@ -19,21 +19,35 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
 
 
+
+            <ProjectItem
+            title='Uber Clone'
+            backgroundImg={uberImg}
+            projectUrl='/uberclone'
+            tech='Next JS'
+             />
+
+
+
             <ProjectItem
             title='Twitch UI'
             backgroundImg={twitchImg}
             projectUrl='/twitch'
             tech='Next JS'
-
+             />
+          
+          <ProjectItem
+            title='Google NXT'
+            backgroundImg={googleImg}
+            projectUrl='/googlenxt'
+            tech='Next JS'
           />
-
 
            <ProjectItem
             title='Netflix App'
             backgroundImg={netflixImg}
             projectUrl='/netflix'
             tech='React JS'
-
           />
 
           <ProjectItem
@@ -42,19 +56,8 @@ const Projects = () => {
             projectUrl='/datawebsite'
             tech='React JS'
           />
-          <ProjectItem
-            title='Uber Clone'
-            backgroundImg={uberImg}
-            projectUrl='/uberclone'
-            tech='Next JS'
-          />
-          <ProjectItem
-            title='Simple Food Website'
-            backgroundImg={bestImg}
-            projectUrl='/besteats'
-            tech='React JS'
-
-          />
+          
+          
           
           
         </div>
