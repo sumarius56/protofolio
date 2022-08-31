@@ -7,6 +7,7 @@ import netflixImg from '../public/assets/projects/netflix.jpg'
 import twitchImg from '../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
 import uberImg from '../public/assets/projects/uber.webp'
+import huluImg from '../public/assets/projects/hulu.jpg'
 
 const Projects = () => {
   return (
@@ -24,6 +25,13 @@ const Projects = () => {
             title='Uber Clone'
             backgroundImg={uberImg}
             projectUrl='/uberclone'
+            tech='Next JS'
+             />
+
+             <ProjectItem
+            title='Hulu NXT'
+            backgroundImg={huluImg}
+            projectUrl='/hulunxt'
             tech='Next JS'
              />
 
