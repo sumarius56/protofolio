@@ -3,6 +3,7 @@ import React from 'react';
 import huluImg from '../public/assets/projects/hulu.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+import hulufootageImg from '../public/assets/footage/hulufootage.png'
 
 const hulunxt = () => {
   return (
@@ -32,6 +33,12 @@ const hulunxt = () => {
             This is a mobile responsive recreation of Hulu and features unique animations,
             reponsive layout even for 4K. It uses TMBD Api to render the movies and information about them .
           </p>
+          {/* Footage */}
+          <div className='mt-4'>
+          <h2 className='mb-4' >Footage</h2>
+            <Image className='rounded-lg' src={hulufootageImg} />
+            </div>
+          
           <a
             href='https://hulunxt.vercel.app/'
             target='_blank'
@@ -46,9 +53,9 @@ const hulunxt = () => {
           >
             <button className='px-8 py-2 mt-4'>Code</button>
           </a>
-
+           
         </div>
-        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
+        <div className='col-span-4 h-[15rem] md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>

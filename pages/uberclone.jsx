@@ -3,6 +3,10 @@ import React from 'react';
 import uberImg from '../public/assets/projects/uber.webp';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+import uberf1 from '../public/assets/footage/uberf1.png';
+import uberf2 from '../public/assets/footage/uberf2.png';
+import uberf3 from '../public/assets/footage/uberf3.png';
+import uberf4 from '../public/assets/footage/uberf4.png';
 
 
 const uberclone = () => {
@@ -35,6 +39,24 @@ const uberclone = () => {
             authenticated with   a Google account. A
             few features to note with this project are built in routing, and Google Auth and Mapbox API.
           </p>
+          {/* Footage */}
+          <div className=' mt-4 flex flex-col '>
+          <h2 className='mb-4' >Footage</h2>
+          <div className='grid sm:flex justify-evenly  '>
+            <div  className='mx-1 '>
+            <Image height='700px' width='400px'  className=' rounded-lg ' src={uberf1} />
+            </div>
+            <div className='mx-1'>
+            <Image height='700px' width='400px' className=' rounded-lg ' src={uberf2} />
+            </div>
+            <div className='mx-1'>
+            <Image height='700px' width='400px' className=' rounded-lg ' src={uberf3} />
+            </div>
+            <div className='mx-1'>
+            <Image height='700px' width='400px' className=' rounded-lg ' src={uberf4} />
+            </div>
+            </div>
+            </div>
           <a
             href='https://uber-clone-v0-8.vercel.app/'
             target='_blank'
@@ -51,9 +73,9 @@ const uberclone = () => {
           </a>
 
         </div>
-        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
+        <div className='col-span-4 md:col-span-1 max-h-[40vh] shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
-            <p className='text-center font-bold pb-2'>Technologies</p>
+            <p className='text-center  font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Next.JS
