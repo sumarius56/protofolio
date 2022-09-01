@@ -8,6 +8,7 @@ import twitchImg from '../public/assets/projects/twitchImg.jpg'
 import ProjectItem from './ProjectItem';
 import uberImg from '../public/assets/projects/uber.webp'
 import huluImg from '../public/assets/projects/hulu.jpg'
+import amazonImg from '../public/assets/projects/amazonIMG.png'
 
 const Projects = () => {
   return (
@@ -20,6 +21,12 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
 
 
+            <ProjectItem
+            title='Amazon NXT'
+            backgroundImg={amazonImg}
+            projectUrl='/amazonnxt'
+            tech='Next JS/Redux'
+             />
 
             <ProjectItem
             title='Uber Clone'
