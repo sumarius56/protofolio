@@ -3,8 +3,8 @@ import Link from 'next/link';
 import React from 'react';
 import dataImg from '../public/assets/projects/finaldataimg.png';
 import googleImg from '../public/assets/projects/googlenextimg.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import netflixImg from '../public/assets/projects/netflixImg.webp'
+import twitchImg from '../public/assets/projects/twitchImg.jpg'
 import ProjectItem from './ProjectItem';
 import uberImg from '../public/assets/projects/uber.webp'
 import huluImg from '../public/assets/projects/hulu.jpg'

@@ -1,8 +1,13 @@
 import Image from 'next/image';
 import React from 'react';
-import twitchImg from '../public/assets/projects/twitch.jpg';
+import twitchImg from '../public/assets/projects/twitchImg.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+import twitchf1 from '../public/assets/footage/twitchf1.png';
+import twitchf2 from '../public/assets/footage/twitchf2.png';
+import twitchf3 from '../public/assets/footage/twitchf3.png';
+import twitchf4 from '../public/assets/footage/twitchf4.png';
+import twitchf5 from '../public/assets/footage/twitchf5.png';
 
 const twitch = () => {
   return (
@@ -35,6 +40,15 @@ const twitch = () => {
             few features to note with this project are lazy loading images using
             the Image component, built in routing, and Next/Auth Context.
           </p>
+          {/* Footage */}
+          <div className='mt-4'>
+          <h2 className='mb-4' >Footage</h2>
+             <Image className='rounded-lg' src={twitchf1} />
+            <Image className='rounded-lg' src={twitchf2} />
+            <Image className='rounded-lg' src={twitchf3} />
+            <Image className='rounded-lg' src={twitchf4} />
+            <Image className='rounded-lg' src={twitchf5} />
+            </div>
           <a
             href='https://twitchnxt.vercel.app/'
             target='_blank'
@@ -51,8 +65,8 @@ const twitch = () => {
           </a>
 
         </div>
-        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
-          <div className='p-2'>
+        <div className='col-span-4 md:col-span-1 shadow-xl max-h-[23rem] shadow-gray-400 rounded-xl py-4'>
+          <div className='p-2 '>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>

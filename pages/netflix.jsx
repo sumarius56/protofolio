@@ -1,8 +1,13 @@
 import Image from 'next/image';
 import React from 'react';
-import netflixImg from '../public/assets/projects/netflix.jpg';
+import netflixImg from '../public/assets/projects/netflixImg.webp';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+import netflixf1 from '../public/assets/footage/netflixf1.png';
+import netflixf2 from '../public/assets/footage/netflixf2.png';
+import netflixf3 from '../public/assets/footage/netflixf3.png';
+import netflixf4 from '../public/assets/footage/netflixf4.png';
+import netflixf5 from '../public/assets/footage/netflixf5.png';
 
 const netflix = () => {
   return (
@@ -35,6 +40,16 @@ const netflix = () => {
             useContext hook is also being implemented for app-wide state
             management.
           </p>
+          {/* Footage */}
+          <div className='mt-4'>
+          <h2 className='mb-4' >Footage</h2>
+            <Image className='rounded-lg' src={netflixf1} />
+              <Image className='rounded-lg' src={netflixf3} />
+               <Image className='rounded-lg' src={netflixf4} />
+                <Image className='rounded-lg' src={netflixf5} />
+                <Image width='1400px' height='700px' className='rounded-lg ' src={netflixf2} />
+            </div>
+            
           <a
             href='https://github.com/sumarius56/mynetflixclone'
             target='_blank'
@@ -50,7 +65,7 @@ const netflix = () => {
             <button className='px-8 py-2 mt-4'>Demo</button>
           </a>
         </div>
-        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
+        <div className='col-span-4 md:col-span-1 max-h-[18rem] shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>

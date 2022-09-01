@@ -3,6 +3,9 @@ import React from 'react';
 import googleImg from '../public/assets/projects/googlenextimg.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+import googlef1 from '../public/assets/footage/googlef1.png';
+import googlef2 from '../public/assets/footage/googlef2.png';
+import googlef3 from '../public/assets/footage/googlef3.png';
 
 const googlenxt = () => {
   return (
@@ -29,6 +32,13 @@ const googlenxt = () => {
           <p>
             This is a google clone made in Next JS, here i show the power of Tailwind CSS and Next server rendering to make use of the google API for searching the web, and also implementing pagination,ability to move from one page to another.
           </p>
+          {/* Footage */}
+          <div className='mt-4'>
+          <h2 className='mb-4' >Footage</h2>
+            <Image className='rounded-lg' src={googlef1} />
+            <Image className='rounded-lg' src={googlef2} />
+            <Image className='rounded-lg' src={googlef3} />
+            </div>
           <a
             href='https://github.com/sumarius56/googlenxt'
             target='_blank'
@@ -45,7 +55,7 @@ const googlenxt = () => {
           </a>
 
         </div>
-        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
+        <div className='col-span-4 md:col-span-1 shadow-xl max-h-[21rem] shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1 '>
