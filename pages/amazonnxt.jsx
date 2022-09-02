@@ -39,7 +39,6 @@ const hulunxt = () => {
             adding items to the basket,as well as removing them.In the checkout page, you can see how many items do
             you have in the basket, and the total price of them.I then added the Next Auth with firebase google authentication
             so you can't press the go to checkout button unless you are logged in.
-
           </p>
           {/* Footage */}
           <div className='mt-4  '>
