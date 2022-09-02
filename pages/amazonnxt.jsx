@@ -38,7 +38,7 @@ const hulunxt = () => {
             react responsive carousel, heroicons@v1 to build my frontend.Than i implemented the functionality (with the help of Redux) of
             adding items to the basket,as well as removing them.In the checkout page, you can see how many items do
             you have in the basket, and the total price of them.I then added the Next Auth with firebase google authentication
-            so you can&apost press the go to checkout button unless you are logged in.
+            so you can not press the go to checkout button unless you are logged in.
           </p>
           {/* Footage */}
           <div className='mt-4  '>
