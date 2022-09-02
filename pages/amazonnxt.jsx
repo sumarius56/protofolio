@@ -5,6 +5,8 @@ import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import amazonf1 from '../public/assets/footage/amazonf1.png'
 import amazonf2 from '../public/assets/footage/amazonf2.png'
+import amazonf3 from '../public/assets/footage/amazonf3.png'
+import amazonf4 from '../public/assets/footage/amazonf4.png'
 
 const hulunxt = () => {
   return (
@@ -33,7 +35,10 @@ const hulunxt = () => {
             This appplication was built using NEXT.JS and is styled with
             Tailwind CSS. The application is hosted statically using Vercel.
             This is a mobile responsive recreation of Amazon.I make use of fakeshop API and server side rendering,
-            react responsive carousel, heroicons@v1 to build my frontend.
+            react responsive carousel, heroicons@v1 to build my frontend.Than i implemented the functionality (with the help of Redux) of
+            adding items to the basket,as well as removing them.In the checkout page, you can see how many items do
+            you have in the basket, and the total price of them.I then added the Next Auth with firebase google authentication
+            so you can't press the go to checkout button unless you are logged in.
 
           </p>
           {/* Footage */}
@@ -41,6 +46,8 @@ const hulunxt = () => {
           <h2 className='mb-4' >Footage</h2>
             <Image className='rounded-lg' src={amazonf1} />
              <Image className='rounded-lg' src={amazonf2} />
+              <Image className='rounded-lg' src={amazonf3} />
+               <Image className='rounded-lg' src={amazonf4} />
             </div>
           
           <a
@@ -59,7 +66,7 @@ const hulunxt = () => {
           </a>
            
         </div>
-        <div className='col-span-4 max-h-[19rem] md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
+        <div className='col-span-4 max-h-[23rem] md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
@@ -77,6 +84,12 @@ const hulunxt = () => {
               </p>
                <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Fakeshop API
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Next Auth
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Firebase
               </p>
               
             </div>
