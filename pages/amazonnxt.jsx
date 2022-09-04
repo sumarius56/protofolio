@@ -7,6 +7,9 @@ import amazonf1 from '../public/assets/footage/amazonf1.png'
 import amazonf2 from '../public/assets/footage/amazonf2.png'
 import amazonf3 from '../public/assets/footage/amazonf3.png'
 import amazonf4 from '../public/assets/footage/amazonf4.png'
+import amazonf5 from '../public/assets/footage/amazonf5.png'
+import amazonf6 from '../public/assets/footage/amazonf6.png'
+import amazonf7 from '../public/assets/footage/amazonf7.png'
 
 const hulunxt = () => {
   return (
@@ -30,7 +33,6 @@ const hulunxt = () => {
         <div className='col-span-4'>
           <p>Project</p>
           <h2>Overview</h2>
-          <h3>Work in Progress</h3>
           <p>
             This appplication was built using NEXT.JS and is styled with
             Tailwind CSS. The application is hosted statically using Vercel.
@@ -38,7 +40,8 @@ const hulunxt = () => {
             react responsive carousel, heroicons@v1 to build my frontend.Than i implemented the functionality (with the help of Redux) of
             adding items to the basket,as well as removing them.In the checkout page, you can see how many items do
             you have in the basket, and the total price of them.I then added the Next Auth with firebase google authentication
-            so you can not press the go to checkout button unless you are logged in.
+            so you can not press the go to checkout button unless you are logged in.I then implemented Stripe for the checkout
+            process, firestore db to store my orders and render out the orders page with the help of my webhook and stripe.
           </p>
           {/* Footage */}
           <div className='mt-4  '>
@@ -47,6 +50,10 @@ const hulunxt = () => {
              <Image className='rounded-lg' src={amazonf2} />
               <Image className='rounded-lg' src={amazonf3} />
                <Image className='rounded-lg' src={amazonf4} />
+                <Image className='rounded-lg' src={amazonf5} />
+                 <Image className='rounded-lg' src={amazonf6} />
+                 <Image className='rounded-lg' src={amazonf7} />
+
             </div>
           
           <a
@@ -65,7 +72,7 @@ const hulunxt = () => {
           </a>
            
         </div>
-        <div className='col-span-4 max-h-[23rem] md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
+        <div className='col-span-4 max-h-[30rem] md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
@@ -89,6 +96,13 @@ const hulunxt = () => {
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Firebase
+              </p>
+              
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Stripe
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Custom Webhook
               </p>
               
             </div>
