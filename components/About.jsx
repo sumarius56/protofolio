@@ -14,7 +14,7 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-            Fascinated with how intricate programming can be I was quickly drawn
+            Fascinated with how intricate programming can be, I was quickly drawn
             to learn more. I started learning javascript and was even more
             enthused with making websites interactive.  I am
             now spending my time building projects with React JS, Firebase, and
