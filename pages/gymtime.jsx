@@ -2,10 +2,10 @@ import Image from 'next/image';
 import React from 'react';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
-import gymf1 from '../public/assets/footage/gymf1.png'
-import gymf2 from '../public/assets/footage/gymf2.png'
-import gymf3 from '../public/assets/footage/gymf3.png'
-import gymf4 from '../public/assets/footage/gymf4.png'
+import gym1 from '../public/assets/footage/gymf1.png'
+import gym2 from '../public/assets/footage/gymf2.png'
+import gym3 from '../public/assets/footage/gymf3.png'
+import gym4 from '../public/assets/footage/gymf4.png'
 
 const hulunxt = () => {
   return (
@@ -16,7 +16,7 @@ const hulunxt = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={gymf1}
+          src={gym1}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
@@ -39,10 +39,10 @@ const hulunxt = () => {
           {/* Footage */}
           <div className='mt-4'>
           <h2 className='mb-4' >Footage</h2>
-            <Image className='rounded-lg' src={gymf1} />
-             <Image className='rounded-lg' src={gymf2} />
-              <Image className='rounded-lg' src={gymf3} />
-               <Image className='rounded-lg' src={gymf4} />
+            <Image className='rounded-lg' src={gym1} />
+             <Image className='rounded-lg' src={gym2} />
+              <Image className='rounded-lg' src={gym3} />
+               <Image className='rounded-lg' src={gym4} />
             </div>
           
           <a
