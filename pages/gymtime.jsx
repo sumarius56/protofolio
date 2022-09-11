@@ -3,9 +3,9 @@ import React from 'react';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import gym1 from '../public/assets/footage/gym/gymf1.PNG'
-import gym2 from '../public/assets/footage/gymf2.png'
-import gym3 from '../public/assets/footage/gymf3.png'
-import gym4 from '../public/assets/footage/gymf4.png'
+import gym2 from '../public/assets/footage/gym/gymf2.PNG'
+import gym3 from '../public/assets/footage/gym/gymf3.PNG'
+import gym4 from '../public/assets/footage/gym/gymf4.PNG'
 
 const hulunxt = () => {
   return (
