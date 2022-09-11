@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
-import gym1 from '../public/assets/footage/gymf1.png'
+import gym1 from '../public/assets/footage/gym/gymf1.PNG'
 import gym2 from '../public/assets/footage/gymf2.png'
 import gym3 from '../public/assets/footage/gymf3.png'
 import gym4 from '../public/assets/footage/gymf4.png'
