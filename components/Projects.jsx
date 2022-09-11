@@ -9,6 +9,7 @@ import ProjectItem from './ProjectItem';
 import uberImg from '../public/assets/projects/uber.webp'
 import huluImg from '../public/assets/projects/hulu.jpg'
 import amazonImg from '../public/assets/projects/amazonIMG.png'
+import gymImg from '../public/assets/projects/cover.png'
 
 const Projects = () => {
   return (
@@ -35,14 +36,12 @@ const Projects = () => {
             tech='Next JS'
              />
 
-             <ProjectItem
-            title='Hulu NXT'
-            backgroundImg={huluImg}
-            projectUrl='/hulunxt'
-            tech='Next JS'
-             />
-
-
+            <ProjectItem
+              title='Gym Time'
+              backgroundImg={gymImg}
+              projectUrl='/gymtime'
+              tech='React JS'
+            />
 
             <ProjectItem
             title='Twitch UI'
@@ -65,12 +64,21 @@ const Projects = () => {
             tech='React JS'
           />
 
+            <ProjectItem
+            title='Hulu NXT'
+            backgroundImg={huluImg}
+            projectUrl='/hulunxt'
+            tech='Next JS'
+            />
+
           <ProjectItem
             title='Data Website'
             backgroundImg={dataImg}
             projectUrl='/datawebsite'
             tech='React JS'
           />
+
+
           
           
           
