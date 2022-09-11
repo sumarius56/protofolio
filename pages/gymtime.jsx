@@ -33,7 +33,7 @@ const hulunxt = () => {
             This appplication was built using React.JS and is styled with
             Material UI. The application is hosted statically using Vercel.
             This is a mobile responsive website.I make use of the Rapid API (
-                More specific : Youtube Search and Download and ExerciseDB
+                To be exact : Youtube Search and Download and ExerciseDB
             ) to get and display exercises , videos on how to do them,pagination and even similar exercises/equipment.
           </p>
           {/* Footage */}
